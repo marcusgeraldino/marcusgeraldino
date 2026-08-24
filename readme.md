@@ -28,7 +28,7 @@ class Skills extends SoftwareEngineer {
         databases: ["MySQL", "PostgreSQL", "Redis"],
         git: ["Git", "GitHub", "GitLab"]
     };
-    languages = ["php", "javascript", "python"];
+    languages = ["php", "javascript", "typescript", "python"];
 }
 
 class Studying extends SoftwareEngineer {
