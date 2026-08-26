@@ -1,4 +1,5 @@
 # <p align="center"> <> ✌️Hello, Welcome to My Profile </> </p>
+
 ```js
 import SoftwareEngineer from "marcusgeraldino";
 
@@ -10,9 +11,6 @@ class AboutMe extends SoftwareEngineer {
     local = "Brazil";
     experience = "5 years";
     age = 24;
-    certifications = [
-        "AWS Certified Solutions Architect – Associate",
-    ];
     hobbies = [
         "Gaming",
         "Studying new technologies"
@@ -21,6 +19,7 @@ class AboutMe extends SoftwareEngineer {
 
 class Skills extends SoftwareEngineer {
     technologies = {
+        ai_agents: ["LangGraph", "LangChain", "MCP", "RAG", "Microsoft Copilot", "Ollama", "llama.cpp"],
         windows: ["Windows Server 2024", "Hyper-V", "Active Directory"],
         linux: ["Ubuntu", "Debian", "CentOS", "Red Hat"],
         cloud: ["Microsoft Azure"],
@@ -50,6 +49,13 @@ class Projects extends SoftwareEngineer {
             "MariaDB database replicator that checks different environments and replicates data or structures as needed"
         ],
         link: "https://github.com/sicoobcredimata/replicoop",
-    }
+    };
+    cartoSolar = {
+        name: "cartosolar",
+        description: [
+            "Institutional platform and CRM/ERP for a solar energy company, with client, project, financial, inventory and quoting modules"
+        ],
+        link: "https://carto.bunnytechservices.com.br",
+    };
 }
 ```
